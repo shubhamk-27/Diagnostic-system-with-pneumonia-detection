@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = axios.create({ baseURL: "https://doctor-note-api.herokuapp.com/" });
+const api = axios.create({ baseURL: "http://localhost:3005/" });
 
 api.interceptors.request.use(
   function (config) {
